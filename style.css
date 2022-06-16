@@ -1,0 +1,87 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 15px;
+  font-family: Lexend Deca;
+  font-weight: 400;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.write_ups {
+  font-family: Lexend Deca;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.button_view1 {
+  color: white;
+  background-color: hsl(31, 77%, 52%);
+  padding: 12px;
+  border-color: white;
+  margin-top: 35px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.button_view2 {
+  color: white;
+  background-color: hsl(184, 100%, 22%);
+  padding: 12px;
+  border-color: white;
+  margin-top: 35px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.button_view3 {
+  color: white;
+  background-color: hsl(179, 100%, 13%);
+  padding: 12px;
+  border-color: white;
+  margin-top: 35px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.card_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+}
+
+.card_col1 {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  flex-basis: 100%;
+  background-color: hsl(31, 77%, 52%);
+  flex: 1;
+  padding: 5%;
+}
+
+.card_col2 {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  flex-basis: 100%;
+  background-color: hsl(184, 100%, 22%);
+  flex: 1;
+  padding: 5%;
+}
+
+.card_col3 {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  flex-basis: 100%;
+  background-color: hsl(179, 100%, 13%);
+  flex: 1;
+  padding: 5%;
+}
